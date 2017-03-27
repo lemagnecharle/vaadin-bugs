@@ -33,6 +33,6 @@ public class MenuItemTestbenchcaseIT extends TestBenchTestCase {
 
     @AfterMethod
     public void tearDown() throws Exception {
-        //getDriver().quit();
+        getDriver().quit();
     }
 }
