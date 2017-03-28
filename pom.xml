@@ -131,7 +131,9 @@
                 <version>2.17</version>
                 <configuration>
                     <systemPropertyVariables>
-                        <!--Todo: adjust path for sample-->
+                        <!--Todo: adjust path for sample
+                            FIREFOX is an environment variable leading
+                            to a portable version of FF ESR 45.8.0 -->
                         <firefox.path>${FIREFOX}</firefox.path>
                     </systemPropertyVariables>
                 </configuration>
